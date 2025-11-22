@@ -10,7 +10,7 @@
 // TODO: implement the weather icons
 // TODO: add support for https
 
-Module.register('MMM-FHEM', {
+Module.register('MMM-fhemNG', {
 
   defaults: {
     host: 'localhost',
