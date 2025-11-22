@@ -1,9 +1,7 @@
-# Module: MMM-FHEM
+# Module: MMM-fhemNG
 This [MagicMirror](https://github.com/MichMich/MagicMirror) module, shows values like temperature/humidity of [FHEM](http://fhem.de) devices.
 
-## &#x1F534; This repository is no longer maintained.
-__If you are interested to maintain this project, please contact me and i will add you to this repository.__
-
+## &#x1F534; This is my feeble attempt at a fork. Hopefully this will result in an updated module worthy of publishing
 
 ![Magic-Mirror Module MMM-FHEM screenshot](https://github.com/BenRoe/MMM-FHEM/blob/gh-pages/Screenshot1.png?raw=true)
 ![Magic-Mirror Module MMM-FHEM screenshot](https://github.com/BenRoe/MMM-FHEM/blob/gh-pages/Screenshot2.png?raw=true)
@@ -22,10 +20,10 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ```
-git clone https://github.com/BenRoe/MMM-FHEM
+git clone https://github.com/zizzerzazzerzuzz/MMM-fhemNG.git
 ```
 
-Navigate to the new `MMM-FHEM` folder and install the node dependencies.
+Navigate to the new `MMM-fhemNG` folder and install the node dependencies.
 ```
 npm install
 ```
@@ -34,7 +32,7 @@ Configure the module in your `config.js` file.
 
 ## Update the module
 
-Navigate into the `MMM-FHEM` folder with `cd ~/MagicMirror/modules/MMM-FHEM` and get the latest code from Github with `git pull`.
+Navigate into the `MMM-fhemNG` folder with `cd ~/MagicMirror/modules/MMM-fhemNG` and get the latest code from Github with `git pull`.
 
 If you haven't changed the modules, this should work without any problems. Type `git status` to see your changes, if there are any, you can reset them with `git reset --hard`. After that, git pull should be possible.
 
@@ -44,7 +42,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ```javascript
 modules: [
   {
-    module: 'MMM-FHEM',
+    module: 'MMM-fhemNG',
     position: 'bottom_bar',
     config: {
       host: 'localhost',
